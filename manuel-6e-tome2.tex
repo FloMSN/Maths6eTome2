@@ -1,0 +1,219 @@
+\documentclass[TS]{sesamanuel}
+
+% modifications dans la classe (fichier sesamanuel.cls) :
+% 	1) ligne 2873, la ligne de remise à zéro du compteur de chapitre a été commentée pour "themaG"
+% 	2) création d'une boîte à connaître à la ligne 3471
+%	3) ligne 2141 : définition de trois couleurs utilisé par les anciennes figures libreoffice
+%	4) ligne 179 et 180 ajout de 2 lignes pour utiliser la police pazocal qui modifie les caractères calligraphiés en mode math
+%		du coup : \mathcal{C} donne un C fortement calligraphié et \pazocal{C} donne l'habituel C calligraphié de mathcal
+%	5) suppression du texte et du logo dans le titre des QCM d'autoévaluation "Ressources dispo sur sesamaths..." :
+%		lignes 3117 et 4396 : commande \StringManuel est commentée
+%		lignes 3122 et 4401 : je n'ai pas supprimé le \LogoManuel (une @) mais j'ai changé sa couleur de U4 à Blanc (à la ligne 2702)
+
+% modifications dans le fichier commandesTikZ :
+% lignes 31 et 32 pour ajouter la commande \circled qui entoure un caractère
+
+
+%%%%%%%
+%Rajouté le 12/06/2018 SV et BN pour compilation espace insécable sous linux 
+\DeclareUnicodeCharacter{00A0}{~} %pour remplacer les espaces insécables
+\DeclareUnicodeCharacter{2011}{-}
+%\usepackage{pdfpages}
+%%%%%%%
+
+
+\input{commandes-manuel-TS} % pour l'instant on garde sinon les corrigés ne sont
+						% pas dans classés dans un dossier "correction"
+\input{commandes-tikz}
+
+\graphicspath{%
+  {ex1/figures/}%
+  {OpererAvecRelatifs/figures/}%
+  {SymetriesAxialeEtCentrale/figures/}%
+  {Tableaux&Graphiques/figures/}%
+  {MultiplierDiviserRelatifs/figures/}%
+  {TranslationsRotations/figures/}%
+  {NombresRationnels/figures/}%
+  {Proportionnalite/figures/}%
+  {SolidesVolumes/figures/}%
+  {CalculLitteral/Figures/}%
+  {Images/}%
+}
+
+
+% création d'un nouveau thème "calcul" pour le document
+\NewThema{C}{c}{calcul}{Calcul}{CALCUL}{PartieFonction}{A3}
+
+\renewcommand\ListeMethodesThemes{{c}{C},{g}{G}}
+\renewcommand*\StringListeMethode{M\'ethodes du livret 2}
+
+% création d'un nouveau thème "Manuel" pour le sommaire
+\NewThema{M}{m}{manuel}{Manuel}{MANUEL}{PartieFonction}{A3}
+
+
+\begin{document}
+
+%%%%%%%%%%%%
+%%%%%%%%%%%%
+%Couverture inclusion page entière en eps
+\pagestyle{empty}
+
+\includegraphics[width=.92\textwidth]{6e_tome2_couverture}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table des matières
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage \pagestyle{empty}
+\addto\captionsfrench{\renewcommand{\contentsname}{Sommaire}}
+
+%\setcounter{tocdepth}{2}
+
+%%%%%%%%%%%%%%%%%%%%% Déclaration du style de la page du sommaire :
+\themaM %thème déclaré en début de document
+\colorlet{ChapterNumColor}{PartieFonction}
+\chapter{Manuel de 6e\\Tome 2}
+
+\vfill
+
+\begin{commentaire}
+
+\textcolor{PartieFonction}{\PrerequisTitleFont 
+Chapitre \ref{ChOpererRelatifs}: Opérer avec les nombres relatifs \dotfill\ page \pageref{ChOpererRelatifs}}
+
+\vspace{2em}
+
+\textcolor{PartieGeometrie}{\PrerequisTitleFont 
+Chapitre \ref{ChSymetries}: Symétries axiale et centrale \dotfill\ page \pageref{ChSymetries}}
+
+\vspace{2em}
+
+\textcolor{PartieFonction}{\PrerequisTitleFont 
+Chapitre \ref{ChTableauxGraphiques}: Tableaux et Graphiques \dotfill\ page \pageref{ChTableauxGraphiques}}
+
+\vspace{2em}
+
+\textcolor{PartieFonction}{\PrerequisTitleFont 
+Chapitre \ref{ChMultDivRelatifs}: Multiplier et diviser avec les relatifs \dotfill\ page \pageref{ChMultDivRelatifs}}
+
+\vspace{2em}
+
+\textcolor{PartieGeometrie}{\PrerequisTitleFont 
+Chapitre \ref{ChTranslationsRotations}: Translations et rotations \dotfill\ page \pageref{ChTranslationsRotations}}
+
+\vspace{2em}
+
+\textcolor{PartieFonction}{\PrerequisTitleFont 
+Chapitre \ref{ChNombresRationnels}: Nombres rationnels \dotfill\ page \pageref{ChNombresRationnels}}
+
+\vspace{2em}
+
+\textcolor{PartieFonction}{\PrerequisTitleFont 
+Chapitre \ref{ChProportionnalite}: Proportionnalité \dotfill\ page \pageref{ChProportionnalite}}
+
+\vspace{2em}
+
+\textcolor{PartieGeometrie}{\PrerequisTitleFont 
+Chapitre \ref{ChSolidesVolumes}: Solides et Volumes \dotfill\ page \pageref{ChSolidesVolumes}}
+
+\vspace{2em}
+
+\textcolor{PartieFonction}{\PrerequisTitleFont 
+Chapitre \ref{ChCalculLitteral}: Calcul Littéral \dotfill\ page \pageref{ChCalculLitteral}}
+
+\vspace{2em}
+
+\end{commentaire}
+
+\vfill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fin table des matières
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Page Sesamath
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\begin{prerequis}[Un manuel de l'association Sésamath]
+\begin{itemize}
+\item  Ce manuel est adapté en partie du manuel Sésamath de l'association Sésamath:\\
+\texttt{http://manuel.sesamath.net/}
+\item … Et de l'association Sésamath Suisse romande:\\ \texttt{http://www.sesamath.ch/}
+\item L'Institut Florimont a réalisé la transcription dans le langage de description de documents libre et gratuit \LaTeX{} en utilisant la classe \texttt{sesamanuel} développée par l'association Sésamath;
+\item E. Villié a réalisé la couverture pour l'Institut Florimont;
+\item Version Septembre 2018 --- Institut Florimont (Genève);
+\item Publication sous licence libre \includegraphics[width=2cm]{cc-by-sa}
+\end{itemize}
+ \end{prerequis}
+
+\vspace{1em}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Fin page Sesamath
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Pour finir
+\colorlet{ChapterNumColor}{white}
+\setcounter{chapter}{0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Fin Pour Finir…
+
+
+\themaC
+\themaG
+
+
+\setcounter{page}{6}
+\setcounter{chapter}{8} % tome 2 : le prochain chapitre doit être le numéro 9
+
+% ci-dessous c'est le chapitre d'exemples
+%\themaC
+%\include{ex1/ch1}
+
+% et la, premier chapitre du livre
+\themaC
+\include{OpererAvecRelatifs/OpererAvecRelatifs}
+
+\themaG
+\include{SymetriesAxialeEtCentrale/SymetriesAxialeEtCentrale}
+
+\themaC
+\include{Tableaux&Graphiques/Tableaux&Graphiques}
+
+\themaC
+\include{MultiplierDiviserRelatifs/MultiplierDiviserRelatifs}
+
+\themaG
+\include{TranslationsRotations/TranslationsRotations}
+
+\themaC
+\include{NombresRationnels/NombresRationnels}
+
+\themaC
+\include{Proportionnalite/Proportionnalite}
+
+\themaG
+\include{SolidesVolumes/SolidesVolumes}
+
+\themaC
+\include{CalculLitteral/CalculLitteral}
+
+
+\AfficheListeMethodes
+\AfficheCorriges[2]
+\AfficheLexique
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

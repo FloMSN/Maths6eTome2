@@ -1,0 +1,25 @@
+\scalebox{.4}{
+\begin{tikzpicture}[general,every node/.style={scale=2}]
+%Les coordonnées du vecteur
+\def \AbscVect {4};
+\def \OrdVect {-2};
+\begin{huge}
+\coordinate (A) at (0,0);
+\coordinate (B) at (7,2);
+\coordinate (A') at (0+\AbscVect,0+\OrdVect);
+\coordinate (B') at (7+\AbscVect,2+\OrdVect);
+\draw (A) node[above right] {$A$};
+\draw (A) node{$\times$};
+\draw (B) node[left] {$B$};
+\draw (B) node{$\times$};
+\draw (A') node[right] {$A'$};
+\draw (A') node{$\times$};
+\draw (B') node[below left] {$B'$};
+\draw (B') node{$\times$};
+
+%le vecteur de base
+\draw [line width = 2pt,>=stealth,->] (A) -- (A') node[midway, above right] {$\overrightarrow{AA'}$};
+%\draw [line width = 2pt,>=stealth,->] (B) -- (B') node[midway, above right] {$\overrightarrow{BB'}$};
+\end{huge}
+\end{tikzpicture}
+} 

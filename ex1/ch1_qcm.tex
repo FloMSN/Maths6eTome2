@@ -1,0 +1,133 @@
+\begin{acquis}
+\begin{itemize}
+\item Déterminer la limite d’une somme,
+d’un produit, d’un \mbox{quotient} ou d’une
+composée de deux fonctions
+\item Déterminer des limites par
+comparaison et encadrement
+\item Faire le lien entre limites et comportement asymptotique
+\item Appréhender la notion de continuité d'une fonction
+\item Exploiter le théorème des valeurs
+intermédiaires (cas d'une
+fonction strictement monotone) pour
+résoudre un problème
+\item Approcher une solution d'équation par l'algorithmique
+\end{itemize}
+\end{acquis}
+
+\QCMautoevaluation{Pour chaque question, plusieurs réponses sont
+  proposées.  Déterminer celles qui sont correctes.}
+
+% 53
+\begin{QCM}
+  \begin{GroupeQCM}
+    \begin{exercice}
+      La limite en $+\infty$ de la fonction $f$ définie sur $]-\infty~;~-1[$ par $f(x)=\dfrac{1+x^2+x^3}{x\left(1-x^2\right)}$ est :
+      \begin{ChoixQCM}{4}
+      \item $0$
+      \item $1$
+      \item $-1$
+      \item $-\infty$
+      \end{ChoixQCM}
+\begin{corrige}
+     \reponseQCM{c}
+   \end{corrige}
+    \end{exercice}
+
+    \begin{exercice}
+      La limite à gauche  en $0$  de la fonction $f$ définie sur $[-1~;~0[$ par $f(x)=\sqrt{-\dfrac{x+1}{x}}$ est :
+      \begin{ChoixQCM}{4}
+      \item $0$
+      \item $1$
+      \item $-\infty$
+      \item $+\infty$
+      \end{ChoixQCM}
+      \begin{corrige}
+     \reponseQCM{d}
+   \end{corrige}
+    \end{exercice}
+
+    % 54
+    \begin{exercice}
+      La limite en $+\infty$ de la fonction $f$ définie sur $\mathbb{R}\setminus\{-1~;~1\}$ par $f(x)=\dfrac{(2x-3)(x^2+1)}{\left(1-x^2\right)^2}$ est :
+      \begin{ChoixQCM}{4}
+      \item $-2$
+      \item $0$
+      \item $+\infty$
+      \item $-\infty$
+      \end{ChoixQCM}
+      \begin{corrige}
+     \reponseQCM{b}
+   \end{corrige}
+    \end{exercice}
+  \end{GroupeQCM}
+\end{QCM}
+
+
+\begin{QCM}
+  \begin{GroupeQCM}
+    \begin{exercice}
+      Soit $f$ une fonction définie sur $[2~;~+\infty[$. Si pour tout $x\geqslant 2$, on a $x^2 \leqslant f(x)$ alors :
+      \begin{ChoixQCM}{4}
+      \item $\displaystyle\lim_{x\to +\infty} f(x)=+\infty$
+      \item $\displaystyle\lim_{x\to +\infty} \dfrac{f(x)}{x}=0$
+      \item $\displaystyle\lim_{x\to +\infty} \dfrac{f(x)}{x}=+\infty$
+      \item $\displaystyle\lim_{x\to +\infty} \dfrac{f(x)}{x^2}=1$
+      \end{ChoixQCM}
+      \begin{corrige}
+     \reponseQCM{ac}
+   \end{corrige}
+    \end{exercice}
+
+
+    \begin{exercice}
+      La courbe représentative de la fonction
+      $h:x\mapsto \dfrac{\left(2x - 1\right)^2}{2(4-x^2)}$ admet une asymptote d'équation :
+      \begin{ChoixQCM}{4}
+      \item $x = -2$
+      \item $y = -2$
+      \item $x = 2$
+      \item $y = 2$
+      \end{ChoixQCM}
+      \begin{corrige}
+     \reponseQCM{abc}
+   \end{corrige}
+    \end{exercice}
+
+    \begin{exercice}
+    Soit ci-dessous la courbe représentative d'une fonction $f$.
+\begin{center}
+\psset{xunit=1.cm,yunit=1.cm,algebraic=true}
+\begin{pspicture*}(-5.25,-1.2)(5.25,1.4)
+\psgrid[subgriddiv=1,linewidth=0.5pt,gridcolor=A3,subgridcolor=A3,gridlabels=0pt](-6,-2)(6,3)
+\psaxes[linewidth=0.8pt,Dx=1,Dy=1,ticksize=-2pt]{->}(0,0)(-5.25,-1.2)(5.25,1.4)
+%\psaxes[linewidth=0.5pt,Dx=10,Dy=10]{->}(0,0)(1,1)
+  \rput[0](1.9,2.5){\textcolor{B2}{$\mathscr{C}$}}
+\psplot[linecolor=B2,plotpoints=5000,linewidth=0.8pt]{-5.25}{-1.05}{((x^2+x)/(x^2-1)-(x^2-x)/(-x^2+1))/8}
+\psplot[linecolor=B2,plotpoints=5000,linewidth=0.8pt]{-0.95}{0}{((x^2+x)/(x^2-1)-(x^2-x)/(-x^2+1))/8}
+\psplot[linecolor=B2,plotpoints=5000,linewidth=0.8pt]{0}{0.95}{((x^2+x)/(x^2-1)-(x^2-x)/(-x^2+1))/8+0.13}
+\psplot[linecolor=B2,plotpoints=5000,linewidth=0.8pt]{2.05}{5.25}{(((x-1)^2+x-1)/((x-1)^2-1)-((x-1)^2-x+1)/(-(x-1)^2+1))/8}
+\psline[linecolor=B2,linewidth=0.8pt](1.2,-1.2)(1.8,1.4)
+\rput(0,0){\textcolor{Blanc}{$\bullet$}} \rput(0,0){\textcolor{B2}{$\circ$}}
+\rput(0,0.13){\textcolor{B2}{$\bullet$}}
+\end{pspicture*}
+\end{center}
+Il est certain que la fonction $f$ n'est pas continue :
+      \begin{ChoixQCM}{4}
+      \item en $-1$
+      \item en $0$
+      \item en $2$
+      \item en $6$
+      \end{ChoixQCM}
+      \begin{corrige}
+     \reponseQCM{ab}
+   \end{corrige}
+    \end{exercice}
+
+
+
+
+\end{GroupeQCM}
+\end{QCM}
+
+  

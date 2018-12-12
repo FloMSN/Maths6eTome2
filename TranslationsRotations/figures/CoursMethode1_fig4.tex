@@ -1,0 +1,20 @@
+\scalebox{.4}{
+\begin{tikzpicture}[general,every node/.style={scale=2}]
+%Les coordonnées du vecteur
+\def \AbscVect {4};
+\def \OrdVect {-2};
+\begin{huge}
+\coordinate (A) at (0,0);
+\coordinate (B) at (7,2);
+\coordinate (A') at (0+\AbscVect,0+\OrdVect);
+
+\draw (A) node[above right] {$A$};
+\draw (A) node{$\times$};
+\draw (B) node[left] {$B$};
+\draw (B) node{$\times$};
+\draw (A') node[right] {$A'$};
+\draw (A') node{$\times$};
+
+\end{huge}
+\end{tikzpicture}
+} 

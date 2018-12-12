@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="11.767231cm"
+   height="6.4107795cm"
+   viewBox="0 0 444.74572 242.29717"
+   id="svg256"
+   sodipodi:docname="pyramide3.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata262">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs260" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="777"
+     id="namedview258"
+     showgrid="false"
+     units="cm"
+     fit-margin-top="0.5"
+     fit-margin-left="0.5"
+     fit-margin-right="0.5"
+     fit-margin-bottom="0.5"
+     showguides="false"
+     inkscape:zoom="1.888"
+     inkscape:cx="200.50052"
+     inkscape:cy="78.071016"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg256" />
+  <desc
+     id="desc4">Creator: FreeHEP Graphics2D Driver Producer: geogebra.export.SVGExtensions Revision: 12753  Source:  Date: samedi, 10. novembre 2018 21.12. h CET</desc>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     id="misc"
+     transform="matrix(1.785484,0,0,1.785484,-35.749061,-46.883733)" />
+  <g
+     id="g609">
+    <g
+       id="g17"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g15">
+        <path
+           inkscape:connector-curvature="0"
+           id="path13"
+           d="m 55,216 v 50" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g23"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g21">
+        <path
+           inkscape:connector-curvature="0"
+           id="path19"
+           d="M 155,216 H 55" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g29"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g27">
+        <path
+           inkscape:connector-curvature="0"
+           id="path25"
+           d="M 155,266 V 216" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       id="g33"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <path
+         d="M 55,266 H 155"
+         id="path31"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g59"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g57">
+        <path
+           inkscape:connector-curvature="0"
+           id="path55"
+           d="m 155,216 v 50" />
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <g
+     id="g214">
+    <g
+       id="g65"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g63">
+        <path
+           inkscape:connector-curvature="0"
+           id="path61"
+           d="M 355,216 H 255" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g77"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g75">
+        <path
+           inkscape:connector-curvature="0"
+           id="path73"
+           d="M 255,266 H 355" />
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <g
+     id="g206">
+    <g
+       id="g667">
+      <g
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+         transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+         id="g41">
+        <g
+           id="g39"
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="M 255,216 H 155"
+             id="path37"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <g
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+         transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+         id="g47">
+        <g
+           id="g45"
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="M 255,266 V 216"
+             id="path43"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <g
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+         transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+         id="g53">
+        <g
+           id="g51"
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="M 155,266 H 255"
+             id="path49"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <g
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+         transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+         id="g83">
+        <g
+           id="g81"
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 255,216 v 50"
+             id="path79"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+    </g>
+  </g>
+  <g
+     id="g715">
+    <g
+       id="g71"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g69">
+        <path
+           inkscape:connector-curvature="0"
+           id="path67"
+           d="M 355,266 V 216" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g89"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g87">
+        <path
+           inkscape:connector-curvature="0"
+           id="path85"
+           d="M 455,216 H 355" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g95"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g93">
+        <path
+           inkscape:connector-curvature="0"
+           id="path91"
+           d="M 455,266 V 216" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g101"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g99">
+        <path
+           inkscape:connector-curvature="0"
+           id="path97"
+           d="M 355,266 H 455" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g107"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g105">
+        <path
+           inkscape:connector-curvature="0"
+           id="path103"
+           d="m 355,216 v 50" />
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <g
+     id="g659">
+    <g
+       id="g113"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g111">
+        <path
+           inkscape:connector-curvature="0"
+           id="path109"
+           d="M 205,166 H 105" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g125"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g123">
+        <path
+           inkscape:connector-curvature="0"
+           id="path121"
+           d="M 105,216 H 205" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g131"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g129">
+        <path
+           inkscape:connector-curvature="0"
+           id="path127"
+           d="m 105,166 v 50" />
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <g
+     id="g634">
+    <g
+       id="g161"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g159">
+        <path
+           inkscape:connector-curvature="0"
+           id="path157"
+           d="M 405,166 H 305" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g167"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g165">
+        <path
+           inkscape:connector-curvature="0"
+           id="path163"
+           d="M 405,216 V 166" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g173"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g171">
+        <path
+           inkscape:connector-curvature="0"
+           id="path169"
+           d="M 305,216 H 405" />
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <g
+     id="g766">
+    <g
+       id="g119"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g117">
+        <path
+           inkscape:connector-curvature="0"
+           id="path115"
+           d="M 205,216 V 166" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g137"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g135">
+        <path
+           inkscape:connector-curvature="0"
+           id="path133"
+           d="M 305,166 H 205" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g143"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g141">
+        <path
+           inkscape:connector-curvature="0"
+           id="path139"
+           d="M 305,216 V 166" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g149"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g147">
+        <path
+           inkscape:connector-curvature="0"
+           id="path145"
+           d="M 205,216 H 305" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g155"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g153">
+        <path
+           inkscape:connector-curvature="0"
+           id="path151"
+           d="m 205,166 v 50" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g179"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g177">
+        <path
+           inkscape:connector-curvature="0"
+           id="path175"
+           d="m 305,166 v 50" />
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <g
+     id="g612">
+    <g
+       id="g185"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g183">
+        <path
+           inkscape:connector-curvature="0"
+           id="path181"
+           d="m 155,116 v 50" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g191"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g189">
+        <path
+           inkscape:connector-curvature="0"
+           id="path187"
+           d="M 255,116 H 155" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g197"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g195">
+        <path
+           inkscape:connector-curvature="0"
+           id="path193"
+           d="M 255,166 V 116" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g203"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g201">
+        <path
+           inkscape:connector-curvature="0"
+           id="path199"
+           d="M 155,166 H 255" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g209"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g207">
+        <path
+           inkscape:connector-curvature="0"
+           id="path205"
+           d="m 255,116 v 50" />
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <g
+     id="g623">
+    <g
+       id="g215"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g213">
+        <path
+           inkscape:connector-curvature="0"
+           id="path211"
+           d="M 355,116 H 255" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g221"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g219">
+        <path
+           inkscape:connector-curvature="0"
+           id="path217"
+           d="M 355,166 V 116" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g227"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g225">
+        <path
+           inkscape:connector-curvature="0"
+           id="path223"
+           d="M 255,166 H 355" />
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <g
+     id="g648">
+    <g
+       id="g233"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g231">
+        <path
+           inkscape:connector-curvature="0"
+           id="path229"
+           d="M 305,66 H 205" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g239"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g237">
+        <path
+           inkscape:connector-curvature="0"
+           id="path235"
+           d="M 305,116 V 66" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g245"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g243">
+        <path
+           inkscape:connector-curvature="0"
+           id="path241"
+           d="M 205,116 H 305" />
+      </g>
+      <!-- drawing style -->
+    </g>
+    <g
+       id="g251"
+       transform="matrix(1.0122429,0,0,1.0122429,-35.749061,-46.883733)"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g249">
+        <path
+           inkscape:connector-curvature="0"
+           id="path247"
+           d="m 205,66 v 50" />
+      </g>
+      <!-- drawing style -->
+    </g>
+  </g>
+  <!-- default stroke -->
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="17.808285"
+     y="280.8454"
+     id="text266"><tspan
+       sodipodi:role="line"
+       id="tspan264"
+       x="17.808285"
+       y="316.23602"
+       style="stroke:#000000" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="296.4563"
+     y="257.99927"
+     id="text274"><tspan
+       sodipodi:role="line"
+       id="tspan272"
+       x="296.4563"
+       y="293.38989" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="147.78979"
+     y="210.1468"
+     id="text179"><tspan
+       sodipodi:role="line"
+       id="tspan177"
+       x="147.78979"
+       y="210.1468"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:STIXGeneral;-inkscape-font-specification:'STIXGeneral, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">−7</tspan></text>
+  <text
+     id="text183"
+     y="159.15466"
+     x="198.22194"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:STIXGeneral;-inkscape-font-specification:'STIXGeneral, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+       y="159.15466"
+       x="198.22194"
+       id="tspan181"
+       sodipodi:role="line">+2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="350.91837"
+     y="209.7668"
+     id="text187"><tspan
+       sodipodi:role="line"
+       id="tspan185"
+       x="350.91837"
+       y="209.7668"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:STIXGeneral;-inkscape-font-specification:'STIXGeneral, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">+3</tspan></text>
+  <text
+     id="text191"
+     y="109.36252"
+     x="137.3098"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:STIXGeneral;-inkscape-font-specification:'STIXGeneral, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+       y="109.36252"
+       x="137.3098"
+       id="tspan189"
+       sodipodi:role="line">−14</tspan></text>
+</svg>
+<!-- bounding box -->
+

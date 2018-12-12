@@ -1,0 +1,126 @@
+\section{Nombres entiers et décimaux}
+
+% remarque : pour qu'un mot se retrouve dans le lexique : \MotDefinition{asymptote horizontale}{} 
+
+Dans toute cette partie, $\mathscr{C}_f$ désigne la courbe représentative de la fonction $f$ dans un repère quelconque du plan.
+
+\subsection{Limite finie en l’infini}
+
+\begin{definition}
+Soit $f$ une fonction définie au moins sur un intervalle de $\mathbb{R}$ du type $]a~;~+\infty[$.\\
+La fonction $f$ a pour limite $\ell$ en $+\infty$ si tout intervalle ouvert contenant $\ell$
+contient toutes les valeurs de $f(x)$ pour $x$ assez grand. On note alors : $\displaystyle \lim_{x\to+\infty}f(x)=\ell$.\\
+\end{definition}
+
+\begin{exemple*1}
+Soit $f$ la fonction définie sur $]0~;~+\infty[$ par $f(x)=\dfrac{1}{x}+1$. On a $\displaystyle\lim_{x\to+\infty}\left(\dfrac{1}{x}+1\right)=1$.\\
+En effet, l'inverse de $x$ se rapproche de $0$ à mesure que $x$ augmente.\\
+Soit un intervalle ouvert $I$ tel que $1\in I$. Alors, $f(x)$ sera toujours dans $I$ pour $x$ assez grand. Graphiquement, aussi étroite que soit une bande parallèle à la droite d'équation $y=1$ et qui la contient, il existe toujours une valeur de $x$ au delà de laquelle $\mathscr{C}_f$ ne sort plus de cette bande.
+\end{exemple*1}
+
+\begin{definition}[Asymptote horizontale]
+La droite d'équation $y=\ell$ est \MotDefinition{asymptote horizontale}{} à $\boldsymbol{\mathscr{C}_f}$ \textbf{en} $\boldsymbol{+\infty}$   si $\displaystyle\lim_{x\to+\infty} f(x)=\ell$.
+\end{definition}
+
+  \begin{remarque}
+  On définit de façon analogue $\displaystyle\lim_{x\to-\infty} f(x)=\ell$
+  qui caractérise une asymptote horizontale à $\mathscr{C}_f$ en $-\infty$ d'équation $y=\ell$.
+  \end{remarque}
+
+  \begin{exemple*1}
+On a vu précédemment que $\displaystyle\lim_{x\to+\infty}\left(\dfrac{1}{x}+1\right)=1$. On a aussi $\displaystyle\lim_{x\to-\infty}\left(\dfrac{1}{x}+1\right)=1$.\\
+Donc, la droite d'équation $y=1$  est asymptote horizontale à la courbe $\mathscr{C}_f$  en $+\infty$ et en $-\infty$ .
+  \end{exemple*1}
+
+
+
+
+
+
+\subsection{Limite infinie en l'infini}
+
+\begin{definition}
+La fonction $f$ a  pour limite $+\infty$ en $+\infty$ si tout intervalle de $\mathbb{R}$  du type  $]a~;~+\infty[$
+contient toutes les valeurs de $f(x)$ pour $x$ assez grand. On note alors : $\displaystyle \lim_{x\to+\infty}f(x)=+\infty$.\\
+\end{definition}
+
+\begin{exemple*1}
+Soit $f$ la fonction racine carrée. On a $\displaystyle\lim_{x\to+\infty}\sqrt{x}=+\infty$.\\
+En effet, $\sqrt{x}$ devient aussi grand que l'on veut à mesure que $x$ augmente.\\
+Soit un intervalle ouvert $I=]a~;~+\infty[$. Alors, $f(x)$ sera toujours dans $I$ pour $x$ assez grand.\\
+ Graphiquement, si on considère le demi-plan supérieur de frontière une droite d'équation \mbox{$y=a$}, il existe toujours une valeur de $a$ au delà de laquelle $\mathscr{C}_f$ ne sort plus de ce demi-plan.
+\begin{center}
+\psset{xunit=0.5cm,yunit=1cm,algebraic=true}
+\begin{pspicture*}(-2.5,-0.6)(20.5,4.8)
+\psframe*[linecolor=H4](0,3.75)(20.5,4.8)
+\psgrid[yunit=0.5cm,subgriddiv=1,linewidth=0.5pt,gridcolor=A3,gridlabels=0pt](0,0)(21,10)
+\psaxes[linewidth=0.8pt,Dx=1,Dy=1,ticksize=-2pt]{->}(0,0)(-0.5,-0.25)(20.5,4.8)
+\uput[r](1.2,2.7){\textcolor{B2}{$\boldsymbol{\mathscr{C}_{f}:y=\sqrt{x}}$}}
+\psplot[linecolor=B2,plotpoints=5000,linewidth=1pt]{0.01}{20.5}{sqrt(x)}
+\psline[linewidth=0.8pt,linestyle=dashed,linecolor=B2](0,3.75)(20.5,3.75)
+\uput[l](0,3.75){\textcolor{H1}{$a$}}
+\end{pspicture*}
+\end{center}\vspace{-5mm}
+\end{exemple*1}
+
+\begin{remarque}
+\begin{itemize}
+\item On définit de façon analogue :
+$\displaystyle\lim_{x\to +\infty}f(x)=-\infty$,
+$\displaystyle\lim_{x\to -\infty}f(x)=+\infty$ et
+$\displaystyle\lim_{x\to -\infty}f(x)=-\infty$.
+\item Il existe des fonctions qui n'admettent pas de limite en
+  l'infini. Par exemple, les fonctions sinus et cosinus n'admettent
+  de limite ni en $+\infty$, ni en $-\infty$.
+\item Une fonction qui tend vers $+\infty$ lorsque $x$ tend vers $+\infty$ n'est pas forcément croissante.
+\end{itemize}
+\begin{center}
+\psset{xunit=1cm,yunit=.5cm,algebraic=true}
+\begin{pspicture*}(-0.7,-1.5)(10.7,5.9)
+\psgrid[yunit=0.5cm,subgriddiv=1,linewidth=0.5pt,gridcolor=A3,gridlabels=0pt](0,-2)(11,6)
+\psaxes[linewidth=0.8pt,Dx=1,Dy=1,ticksize=-2pt]{->}(0,0)(-0.5,-1.5)(10.7,5.9)
+\rput[0](9,1.5){\textcolor{B2}{$\boldsymbol{y=\sin 4x}$}}
+\rput[0](3.5,3.5){\textcolor{H2!60!black}{$\boldsymbol{y=\cos 4x+\dfrac{x}{2}}$}}
+\psplot[linecolor=B2,plotpoints=5000,linewidth=1pt]{0}{10.7}{sin(4*x)}
+\psplot[linecolor=H2!60!black,plotpoints=5000,linewidth=1pt]{0}{10.7}{cos(4*x)+x/2}
+\end{pspicture*}
+\end{center}
+\end{remarque}
+
+
+
+
+% ci-dessous une boîte de méthode avec renvoi vers un des exercices
+% la commande MethodeRefExercice contient la référence de l'exercice qui correspond à la fiche méthode
+% la commande label contient la référence de la fiche méthode
+
+\begin{methode*1}[Interpréter graphiquement les limites d'une fonction
+  \MethodeRefExercice*{exo_test_boite_methode}]
+L'aperçu de la courbe représentative d'une fonction avec une  calculatrice ou un logiciel peut aider à conjecturer une limite (et donc éventuellement une asymptote  à la courbe) mais il faut paramétrer correctement la fenêtre d'affichage pour limiter les erreurs de jugement.
+
+  \exercice \label{test_boite_methode}
+% \definecolor{fondTI}{HTML}{869286}
+Soit $f$ une fonction dont on a un aperçu du graphe $\mathscr{C}$. Déterminer son ensemble de définition $\mathcal{D}$, puis conjecturer les limites aux bornes de $\mathcal{D}$ et les  asymptotes à $\mathscr{C}$.
+\begin{colenumerate}{2}
+\item $f:x\mapsto \dfrac{x^3-1}{x^3+1}$\par\vspace{1mm}
+% \fcolorbox{fondTI}{fondTI}{
+  
+\item $f:x\mapsto 2x-\sqrt{4x^2-1}$ \par\vspace{1mm}
+% \fcolorbox{fondTI}{fondTI}{
+ \end{colenumerate}
+
+  \correction
+
+  \vspace{-3mm}
+
+  \begin{enumerate}
+  \item  $\mathcal{D}=\mathbb{R}\setminus\{-1\}$. A priori, on aurait : $\displaystyle\lim_{x\to\pm+\infty}f(x)=1$ ; $\displaystyle\lim_{\substack{x\to -1\\ x<-1}}f(x)=+\infty$ et $\displaystyle\lim_{\substack{x\to -1\\ x>-1}}f(x)=-\infty$.\par
+        $\mathscr{C}$ aurait alors une asymptote  horizontale d'équation $y=1$ en $\pm\infty$ et une asymptote verticale d'équation $x=-1$.
+  \item  $\mathcal{D}=]-\infty~;~-\tfrac{1}{2}[\,\cup\,]\tfrac{1}{2}~;~+\infty[$. On a : $\displaystyle\lim_{x\to -1/2}f(x)=-1$ et $\displaystyle\lim_{x\to 1/2}f(x)=1$ et, il semblerait que $\displaystyle\lim_{x\to-\infty}f(x)=-\infty$ et $\displaystyle\lim_{x\to +\infty}f(x)=0$.\par
+        $\mathscr{C}$ aurait alors une asymptote horizontale d'équation $y=0$ (l'axe des abscisses) en $+\infty$.\par
+         La vérification des conjectures est l'objet de l'exercice \RefExercice{suite_methode1} page \pageref{suite_methode1}.
+  \end{enumerate}
+  \vspace{-10mm}
+\end{methode*1}
+
+\vspace{-5mm}

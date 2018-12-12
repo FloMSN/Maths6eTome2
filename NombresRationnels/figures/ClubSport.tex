@@ -1,0 +1,42 @@
+\scalebox{.75}{
+
+\begin{tikzpicture}
+%0/54/15/Femmes juniors, 54/162/30/Femmes adultes, 162/180/5/Femmes vétérans,
+%180/252/20/Hommes juniors, 252/342/25/Hommes adultes, 342/360/5/Hommes vétérans
+{
+
+\def \Rayon {2};
+\def \RayonDim {1.5}; %positions des pourcentages dans le cercle
+
+\draw[fill=C2,opacity = 0.5]
+(0,0) -- (0:\Rayon) arc (0:54:\Rayon) -- cycle;
+\draw (27:\RayonDim) node {15\%};
+\draw (27:\Rayon+1.2) node {Femmes juniors};
+
+\draw[fill=C3,opacity = 0.5]
+(0,0) -- (54:\Rayon) arc (54:162:\Rayon) -- cycle;
+\draw (108:\RayonDim) node {30\%};
+\draw (108:\Rayon+0.5) node {Femmes adultes};
+
+\draw[fill=C4,opacity = 0.5]
+(0,0) -- (162:\Rayon) arc (162:180:\Rayon) -- cycle;
+\draw (171:\RayonDim) node {5\%};
+\draw (171:\Rayon+1.4) node {Femmes vétérans};
+
+\draw[fill=D2,opacity = 0.5]
+(0,0) -- (180:\Rayon) arc (180:252:\Rayon) -- cycle;
+\draw (216:\RayonDim) node {20\%};
+\draw (216:\Rayon+1.2) node {Hommes juniors};
+
+\draw[fill=D3,opacity = 0.5]
+(0,0) -- (252:\Rayon) arc (252:342:\Rayon) -- cycle;
+\draw (297:\RayonDim) node {30\%};
+\draw (297:\Rayon+0.8) node {Hommes adultes};
+
+\draw[fill=D4,opacity = 0.5]
+(0,0) -- (342:\Rayon) arc (342:360:\Rayon) -- cycle;
+\draw (351:\RayonDim) node {30\%};
+\draw (351:\Rayon+1.4) node {Hommes vétérans};
+}
+\end{tikzpicture}
+}
