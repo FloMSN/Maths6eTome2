@@ -1,0 +1,150 @@
+
+\newcommand{\NodeAngle}[2]{%
+    %\pgfextra{
+        \pgfmathanglebetweenpoints%
+            {\pgfpointanchor{#1}{center}}%
+            {\pgfpointanchor{#2}{center}}%
+            \global\let\MyAngle\pgfmathresult
+    }%}
+
+    % #1 premier point              ---- Distance entre 2 nodes ----
+    % #2 second point
+    % On récupère le résultat dans \MyDist
+\makeatletter
+\newcommand{\NodeDist}[2]{%
+    \pgfpointdiff{\pgfpointanchor{#1}{center}}
+                 {\pgfpointanchor{#2}{center}}
+    % no need to use a new dimen
+    \pgf@xa=\pgf@x
+    \pgf@ya=\pgf@y
+    % to convert from pt to cm   
+    \pgfmathparse{veclen(\pgf@xa,\pgf@ya)/28.45274}
+    \global\let\MyDist\pgfmathresult % we need a global macro   
+}
+\makeatother
+
+% ######################
+%     Dessin crayon    #
+% ######################
+
+\newcommand{\Crayon}[1]{%
+    \begin{scope}[scale=.7,#1]
+    \fill[gray!60] (-.2,4.8) -- (.2,4.8)
+                -- (.2,.8) --(.1,.65)
+                -- (0,.8) -- (-.1,.66)
+                -- (-.2,.8) -- cycle ;
+    \draw[color=white] (0,4.8) -- (0,.8 );
+    \fill[black] (-.2,4.3) -- (0,4.27)
+                -- (.2,4.3) -- (.2,4.8) arc(30:150:0.23cm) ;
+    \fill[brown!50] (-.2,.8)
+        -- (0,0) node[coordinate,pos=0.75](a){}
+        -- (.2,.8) node[coordinate,pos=0.25](b){}
+        -- (.1,.65) -- (0,.8) -- (-.1,.66) -- cycle;
+    \fill[gray] (a) -- (0,0) -- (b) -- cycle;
+    \end{scope}
+}
+
+
+
+% ######################
+%   Dessin du compas   #
+% ######################
+
+\NewDocumentCommand{\Compas}{smm}{%
+
+    \IfBooleanTF{#1}{%
+    % with *
+    % keep distance between extemities
+    }{%
+    % without *
+    % calulation of the distance between extemities
+    \NodeDist{#2}{#3}
+    }
+
+    \NodeAngle{#2}{#3}
+
+    \def\L{6} % taille des branches du compas
+
+    % calcul de l'angle de l'ouverture
+    \pgfmathsetmacro{\AngleCP}{asin(\MyDist/(2*\L))}
+
+    \begin{scope}[shift=(#2)]
+    \begin{scope}[%
+        join=round,
+        rotate=\MyAngle,
+        shift=(270-\AngleCP:-\L)
+        ]
+
+    % branche pointe sèche
+    \draw[rotate=-\AngleCP,fill=gray!80]
+        (0,0)--(0,-\L)--(-.2,-\L+.8)--(-.2,0)--cycle ;
+    \draw[rotate=-\AngleCP,fill=gray!05]
+        (0,-\L+.8)--(0,-\L)--(-.2,-\L+.8)--cycle ;
+
+    % branche crayon
+    \draw[rotate=\AngleCP,fill=gray!80]
+        (0,0)--(0,-\L)--(.2,-\L+.8)--(.2,0)--cycle ;
+
+    \begin{scope}[rotate=\AngleCP,shift={(0,-\L)}]
+    \Crayon{rotate=-12}
+    \draw[fill=gray!25] (\L/30,\L/5) circle (\L/36) ;
+    \fill[gray!5] (\L/30,\L/5)
+            -- ++(30:\L/36) arc (30:45:\L/36) -- cycle ;
+    \fill[gray!5] (\L/30,\L/5)
+            -- ++(210:\L/36) arc (210:225:\L/36) ;
+    \filldraw (\L/30,\L/5) circle (.02) ;
+    \end{scope}
+
+    % haut du compas
+    \draw[fill=gray!80] (-.1,0) rectangle (.1,.7) ;
+    \draw[fill=gray!25] (0,0) circle (.25) ;
+    \fill[gray!5] (0,0) -- (30:.25) arc (30:45:.25) -- cycle ;
+    \fill[gray!5,rotate=180] (0,0) -- (30:.25) arc (30:45:.25) -- cycle ;
+    \filldraw (0,0) circle (.05) ;
+    \end{scope}
+    \end{scope}
+}
+
+
+
+
+
+\scalebox{.2}{
+\begin{tikzpicture}	
+  
+    
+\def \CharSize {3};
+\def \BulletSize {2};
+
+\coordinate (A) at (0,0) ;
+\coordinate (P) at (2,4) ;
+\coordinate (M) at (-4,2) ;
+\coordinate (N) at (4,-2) ;
+\coordinate (S) at (-2,-4) ; %S est le symétrique de P par rapport à d
+
+%Compas
+\Compas{N}{S}
+
+%droite d
+\draw[very thick] (-8,4)--(8,-4);
+\draw (-6,4) node [scale=\CharSize]{$d$};
+
+%point P
+\draw (P) node [above,scale=\CharSize]{P};
+\draw (P) node[scale=\BulletSize]{$\times$};
+
+%arcs de cercle marqués par le compas
+\draw [very thick, color=gray](M) arc(198.4:185:6.32);
+\draw [very thick, color=gray](M) arc(198.4:211.8:6.32);
+\draw [very thick, color=gray](N) arc(-71.6:-58.6:6.32);
+\draw [very thick, color=gray](N) arc(-71.6:-84.6:6.32);
+
+\draw [very thick, color=gray](S) arc(198.4:185:6.32);
+\draw [very thick, color=gray](S) arc(198.4:211.8:6.32);
+\draw [very thick, color=gray](S) arc(-71.6:-58.6:6.32);
+\draw [very thick, color=gray](S) arc(-71.6:-84.6:6.32);
+
+%\draw [color=red](P) circle (6.32);
+
+\end{tikzpicture} 
+ } %fin de la scalebox

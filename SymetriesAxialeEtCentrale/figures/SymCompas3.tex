@@ -1,0 +1,40 @@
+
+\scalebox{.2}{
+\begin{tikzpicture}	
+  
+    
+\def \CharSize {3};
+\def \BulletSize {2};
+
+\coordinate (A) at (0,0) ;
+\coordinate (P) at (2,4) ;
+\coordinate (M) at (-4,2) ;
+\coordinate (N) at (4,-2) ;
+\coordinate (S) at (-2,-4) ; %S est le symétrique de P par rapport à d
+
+
+%droite d
+\draw[very thick] (-8,4)--(8,-4);
+\draw (-6,4) node [scale=\CharSize]{$d$};
+
+%point P
+\draw (P) node [above,scale=\CharSize]{P};
+\draw (P) node[scale=\BulletSize]{$\times$};
+
+%arcs de cercle marqués par le compas
+\draw [very thick, color=gray](M) arc(198.4:185:6.32);
+\draw [very thick, color=gray](M) arc(198.4:211.8:6.32);
+\draw [very thick, color=gray](N) arc(-71.6:-58.6:6.32);
+\draw [very thick, color=gray](N) arc(-71.6:-84.6:6.32);
+
+\draw [very thick, color=gray](S) arc(198.4:185:6.32);
+\draw [very thick, color=gray](S) arc(198.4:211.8:6.32);
+\draw [very thick, color=gray](S) arc(-71.6:-58.6:6.32);
+\draw [very thick, color=gray](S) arc(-71.6:-84.6:6.32);
+
+%point S
+\draw (S) node [below right,scale=\CharSize]{S};
+%\draw (S) node{$\times$};
+
+\end{tikzpicture} 
+ } %fin de la scalebox

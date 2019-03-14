@@ -1,0 +1,20 @@
+\begin{tikzpicture}	
+  
+    
+\def \CharSize {1};
+\def \BulletSize {1};
+
+%carré
+\draw[thick] (0,0)--(2,0)--(2,2)--(0,2)--cycle;
+%verticales
+\draw[thick] (0.66,0)--(0.66,2);
+\draw[thick] (1.33,0)--(1.33,2);
+%partie colorée
+\draw[thick,fill=blue!40] (0,0)--(0.66,0)--(0.66,2)--(0,2)--cycle;
+%obliques
+\draw[thick] (0,2)--(0.66,0);
+\draw[thick] (0.66,2)--(1.33,0);
+\draw[thick] (1.33,2)--(2,0);
+
+
+\end{tikzpicture}

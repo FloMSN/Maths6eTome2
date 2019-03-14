@@ -1,0 +1,13 @@
+\scalebox{.5}{
+\begin{tikzpicture}	
+  
+%le cercle
+\draw (0,0) circle (2);
+%le secteur coloré
+\draw [fill=pink!60](0,0)--(150:2) arc(150:330:2)--cycle;
+
+%les secteurs
+   \foreach \a in {30,90,150}{\draw (\a:-2)--(\a:2);}
+
+\end{tikzpicture} 
+ } %fin de la scalebox
